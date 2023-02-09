@@ -27,6 +27,7 @@ const sMayus = "S";
 
 if(choice == op2){
     var palabra = prompt("Ahora indica una palabra:");
+    
     if(palabra[0] == sMinus || palabra[0] == sMayus){
         alert("Tu palabra empieza por s/S.");
     }else{
